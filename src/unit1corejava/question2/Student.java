@@ -1,10 +1,9 @@
-package unit1corejava.qn2serializedeserialize;
+package unit1corejava.question2;
 
 import java.io.Serializable;
 
-// Student class must implement Serializable
-class Student implements Serializable {
-    private static final long serialVersionUID = 1L;
+// Student class implementing Serializable
+public class Student implements Serializable {
 
     private int id;
     private String name;
@@ -17,7 +16,7 @@ class Student implements Serializable {
         this.marks = marks;
     }
 
-    // Method to display student details
+    // Display Method
     public void displayStudent() {
         System.out.println("Student ID: " + id);
         System.out.println("Student Name: " + name);
