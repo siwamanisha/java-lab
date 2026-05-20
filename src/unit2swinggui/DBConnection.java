@@ -10,8 +10,8 @@ public class DBConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/email_app",
-                    "suman",
-                    "#password123!"
+                    "root",
+                    "manisha@722"
             );
         } catch (Exception e) {
             e.printStackTrace();

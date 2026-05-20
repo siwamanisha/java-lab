@@ -19,8 +19,8 @@ import java.util.Properties;
 
 public class EmailService {
 
-    private final String senderEmail = "clikeflowers@gmail.com";
-    private final String senderPassword = "obpn lqhq rrnu xckn";
+    private final String senderEmail = "siwmanisha49@gmail.com";
+    private final String senderPassword = "zssn gbez ybux ngcz";
 
     public boolean sendEmail(String to, String subject, String messageText, String filePath) {
         try {
