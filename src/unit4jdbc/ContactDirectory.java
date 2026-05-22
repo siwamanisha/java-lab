@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class ContactDirectory {
 
     static final String URL = "jdbc:mysql://localhost:3306/contact_db";
-    static final String USER = "suman";
-    static final String PASSWORD = "#password123!";
+    static final String USER = "root";
+    static final String PASSWORD = "manisha@722";
 
     static Scanner sc = new Scanner(System.in);
 
